@@ -10,10 +10,28 @@ import Counter from './components/Counter';
 import FunctionClick from './components/FunctionClick';
 import ClassClick from './components/ClassClick';
 import EventBind from './components/EventBind';
+import ArrowBind from './components/ArrowBind';
+import ArrowClass from './components/ArrowClass';
+import UserIfelse from './components/UserIfelse';
+import UserTernary from './components/UserTernary';
+import Usershort from './components/Usershort';
+import ArrayMapCLass from './components/ArrayMapCLass';
+import ArrayMapFunc from './components/ArrayMapFunc';
+import Fun2 from './components/Fun2';
+import Class2 from './components/Class2'
 function App() {
   return (
     <div className="App">
-      <EventBind/>
+      <Class2/>
+     {/* <Fun2/> */}
+      {/* <ArrayMapFunc/> */}
+      {/* <ArrayMapCLass/> */}
+      {/* <Usershort/> */}
+      {/* <UserTernary/> */}
+      {/* <UserIfelse /> */}
+      {/* <ArrowClass/> */}
+      {/* <ArrowBind /> */}
+      {/* <EventBind/> */}
       {/* <ClassClick/> */}
       {/* <FunctionClick/> */}
       {/* <Counter /> */}

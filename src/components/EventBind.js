@@ -1,5 +1,5 @@
-// In class component, when you call a method inside an event, sometimes 'this' is 'undefined'
-// So we need to bind the event handler to the class instance
+// // In class component, when you call a method inside an event, sometimes 'this' is 'undefined'
+// // So we need to bind the event handler to the class instance
 import React, { Component} from 'react'                                                                                   // (1)
 
 class EventBind extends Component{
