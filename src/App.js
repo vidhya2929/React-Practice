@@ -19,10 +19,20 @@ import ArrayMapCLass from './components/ArrayMapCLass';
 import ArrayMapFunc from './components/ArrayMapFunc';
 import Fun2 from './components/Fun2';
 import Class2 from './components/Class2'
+import NameList from './components/NameList';
+import Stylesheet from './components/Stylesheet';
+import Inline from './components/Inline';
+import styles from "./App.module.css";
+
 function App() {
   return (
     <div className="App">
-      <Class2/>
+      {/* <h1 className={styles.title}>Hello, styled with css module</h1>
+      <p className={styles.subtitle}>This subtitle is also locally scoped</p> */}
+      {/* <Inline/> */}
+      {/* <Stylesheet/> */}
+      {/* <NameList/> */}
+      {/* <Class2/> */}
      {/* <Fun2/> */}
       {/* <ArrayMapFunc/> */}
       {/* <ArrayMapCLass/> */}

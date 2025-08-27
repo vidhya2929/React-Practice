@@ -1,0 +1,20 @@
+.color{
+  padding: 100px 200px;
+  background-color: rgb(207, 55, 81);
+  color: yellow;
+  font-size: 20px;
+  font-weight: 500;
+  font-style: italic;
+  display: block;
+  text-align: center;
+}
+.second{
+  color: rgb(207,55,81);
+  background-color: yellow;
+  padding: 100px 200px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+  display: block;
+}
