@@ -22,11 +22,16 @@ import Class2 from './components/Class2'
 import NameList from './components/NameList';
 import Stylesheet from './components/Stylesheet';
 import Inline from './components/Inline';
-import styles from "./App.module.css";
+// import ParentStep1 from './components/PrentStep1';
+import ParChild from './components/ParChild';
+import Controlled from './components/Controlled';
 
 function App() {
   return (
     <div className="App">
+      <Controlled/>
+      {/* <ParChild/> */}
+      {/* <ParentStep1/> */}
       {/* <h1 className={styles.title}>Hello, styled with css module</h1>
       <p className={styles.subtitle}>This subtitle is also locally scoped</p> */}
       {/* <Inline/> */}
