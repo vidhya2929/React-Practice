@@ -7,4 +7,7 @@ class RegComp extends Component{
     return <div>Regular Component {this.props.name}</div>;
   }
 }
-export default RegComp
+export default RegComp// A regular class component in React does not optimize rendering
+// Whenever state or props change  -> React will re-render the component, even if the new values are the same as before. Regular component always returns true for shouldComponentUpdate
+
+

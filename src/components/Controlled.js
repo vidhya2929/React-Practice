@@ -9,4 +9,4 @@ function Controlled(){   //functional component
     </div>
   )
 }
-export default Controlled
+// 

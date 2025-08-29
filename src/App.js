@@ -25,11 +25,12 @@ import Inline from './components/Inline';
 // import ParentStep1 from './components/PrentStep1';
 import ParChild from './components/ParChild';
 import Controlled from './components/Controlled';
-
+import ParentComp from './components/ParentComp';
 function App() {
   return (
     <div className="App">
-      <Controlled/>
+      <ParentComp/>
+      {/* <Controlled/> */}
       {/* <ParChild/> */}
       {/* <ParentStep1/> */}
       {/* <h1 className={styles.title}>Hello, styled with css module</h1>
