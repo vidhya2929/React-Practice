@@ -26,10 +26,14 @@ import Inline from './components/Inline';
 import ParChild from './components/ParChild';
 import Controlled from './components/Controlled';
 import ParentComp from './components/ParentComp';
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
 function App() {
   return (
     <div className="App">
-      <ParentComp/>
+      <HoverCounter/>
+      <ClickCounter/>
+      {/* <ParentComp/> */}
       {/* <Controlled/> */}
       {/* <ParChild/> */}
       {/* <ParentStep1/> */}
